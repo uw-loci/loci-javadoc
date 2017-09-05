@@ -1,9 +1,7 @@
-This project aggregates the javadoc of LOCI projects.
+[![](https://travis-ci.org/uw-loci/loci-javadoc.svg?branch=master)](https://travis-ci.org/uw-loci/loci-javadoc)
+
+This project aggregates the javadoc of LOCI components.
 
 They are built and published to:
 
-* http://javadoc.imagej.net/LOCI/
-
-By the following Jenkins job:
-
-* http://jenkins.imagej.net/job/LOCI-javadoc/
+* https://javadoc.scijava.org/LOCI/
