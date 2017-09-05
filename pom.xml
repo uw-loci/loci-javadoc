@@ -15,6 +15,7 @@
 
 	<name>LOCI Javadocs</name>
 	<description>All the Javadocs for LOCI projects.</description>
+	<url>https://javadoc.scijava.org/LOCI/</url>
 	<inceptionYear>2015</inceptionYear>
 
 	<scm>
@@ -28,8 +29,8 @@
 		<url>https://github.com/uw-loci/loci-javadoc/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/LOCI-javadoc/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/uw-loci/loci-javadoc/</url>
 	</ciManagement>
 
 	<properties>
