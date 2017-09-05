@@ -3,12 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>loci</groupId>
-		<artifactId>pom-loci</artifactId>
-		<version>2.0.0</version>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>RELEASE</version>
 		<relativePath />
 	</parent>
 
+	<groupId>loci</groupId>
 	<artifactId>loci-javadoc</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
@@ -31,6 +32,10 @@
 		<url>http://jenkins.imagej.net/job/LOCI-javadoc/</url>
 	</ciManagement>
 
+	<properties>
+		<enforcer.skip>true</enforcer.skip>
+	</properties>
+
 	<repositories>
 		<repository>
 			<id>imagej.public</id>
@@ -42,110 +47,109 @@
 		<dependency>
 			<groupId>de.sciss</groupId>
 			<artifactId>jcollider</artifactId>
-			<version>0.38-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>deep_zoom-plugin</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>flow-cytometry</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>forward-cron-job</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>github-backup</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>jar2lib</artifactId>
-			<version>1.1.2-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>jvmlink</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>loci-checkstyle</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>loci-utils</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>misc_plugins</artifactId>
-			<version>1.0.1-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>MultiLUT</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>ome-versioning</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>prairie-ome-tiff</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>slide-scanner-importer</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>slim-plotter</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>sonification_</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>visbio</artifactId>
-			<version>3.40-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>visbio_plugins</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>wid-3dniche</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>loci</groupId>
 			<artifactId>wiscscan-java</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 
 		<dependency>
 			<groupId>loci.maven.plugins</groupId>
 			<artifactId>cppwrap-maven-plugin</artifactId>
-			<version>1.1.2-SNAPSHOT</version>
+			<version>LATEST</version>
 		</dependency>
 	</dependencies>
-
 </project>
