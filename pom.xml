@@ -34,6 +34,7 @@
 	</ciManagement>
 
 	<properties>
+		<automatic-module-name>loci.javadoc</automatic-module-name>
 		<enforcer.skip>true</enforcer.skip>
 	</properties>
 
